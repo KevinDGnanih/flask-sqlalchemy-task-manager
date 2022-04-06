@@ -17,3 +17,4 @@ vscode:
     
 ports:
   - port: 5432
+    onOpen: ignore
