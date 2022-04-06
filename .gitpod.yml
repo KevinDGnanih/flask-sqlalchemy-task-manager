@@ -14,3 +14,6 @@ vscode:
     - kevinglasson.cornflakes-linter
     - ms-toolsai.jupyter
     - mkaufman.HTMLHint
+    
+ports:
+  - port: 5432
