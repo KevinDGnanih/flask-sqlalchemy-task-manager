@@ -23,7 +23,7 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa-solid fa-bars grey-text"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="grey-text text-darken-3" href="{{ url_for('home') }}">Home</a></li>
-                    <li><a class="grey-text text-darken-3" href="">New Task</a></li>
+                    <li><a class="grey-text text-darken-3" href="{{ url_for('add_task') }}">New Task</a></li>
                     <li><a class="grey-text text-darken-3" href="{{ url_for('categories') }}">Categories</a></li>
 
                 </ul>
@@ -33,7 +33,7 @@
         <!-- Mobile Navbar -->
         <ul class="sidenav gret-text" id="mobile-demo">
             <li><a class="grey-text text-darken-3" href="{{ url_for('home') }}">Home</a></li>
-            <li><a class="grey-text text-darken-3" href="">New Task</a></li>
+            <li><a class="grey-text text-darken-3" href="{{ url_for('add_task') }}">New Task</a></li>
             <li><a class="grey-text text-darken-3" href="{{ url_for('categories') }}">Categories</a></li>
         </ul>
     </header>
